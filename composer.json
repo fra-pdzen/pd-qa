@@ -39,7 +39,8 @@
         "flarum/sticky": "*",
         "flarum/subscriptions": "*",
         "flarum/suspend": "*",
-        "flarum/tags": "*"
+        "flarum/tags": "*",
+        "fof/best-answer": "^1.6"
     },
     "config": {
         "preferred-install": "dist",

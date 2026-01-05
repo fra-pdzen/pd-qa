@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "83572a509762c4bb2db4f5f3ecd3d8d8",
+    "content-hash": "92ad6e18540c02991c80dfc79ca3fb5d",
     "packages": [
         {
             "name": "axy/backtrace",
@@ -3338,6 +3338,96 @@
                 }
             ],
             "time": "2024-10-02T07:10:53+00:00"
+        },
+        {
+            "name": "fof/best-answer",
+            "version": "1.6.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FriendsOfFlarum/best-answer.git",
+                "reference": "70ff53cd67996a0ab234c78a01b42b4d37e43db7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FriendsOfFlarum/best-answer/zipball/70ff53cd67996a0ab234c78a01b42b4d37e43db7",
+                "reference": "70ff53cd67996a0ab234c78a01b42b4d37e43db7",
+                "shasum": ""
+            },
+            "require": {
+                "flarum/core": "^1.8.3",
+                "flarum/tags": "*"
+            },
+            "replace": {
+                "wiwatsrt/flarum-ext-best-answer": "*"
+            },
+            "require-dev": {
+                "flarum/phpstan": "^1.8",
+                "flarum/testing": "^1.0.0"
+            },
+            "type": "flarum-extension",
+            "extra": {
+                "flagrow": {
+                    "discuss": "https://discuss.flarum.org/d/21894"
+                },
+                "flarum-cli": {
+                    "modules": {
+                        "githubActions": true,
+                        "backendTesting": true
+                    }
+                },
+                "flarum-extension": {
+                    "icon": {
+                        "name": "far fa-comment-dots",
+                        "color": "#fff",
+                        "backgroundColor": "#e74c3c"
+                    },
+                    "title": "FoF Best Answer",
+                    "category": "feature",
+                    "optional-dependencies": [
+                        "fof/follow-tags",
+                        "fof/user-directory",
+                        "ianm/level-ranks"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "FoF\\BestAnswer\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "David Sevilla Martin",
+                    "email": "me+fof@datitisev.me",
+                    "role": "Developer"
+                },
+                {
+                    "name": "IanM",
+                    "email": "ian@flarum.org",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Mark a post as the best answer in a discussion",
+            "homepage": "https://friendsofflarum.org",
+            "keywords": [
+                "flarum"
+            ],
+            "support": {
+                "forum": "https://discuss.flarum.org/d/21894",
+                "issues": "https://github.com/FriendsOfFlarum/best-answer/issues",
+                "source": "https://github.com/FriendsOfFlarum/best-answer"
+            },
+            "funding": [
+                {
+                    "url": "https://opencollective.com/fof/donate",
+                    "type": "website"
+                }
+            ],
+            "time": "2025-08-19T12:24:20+00:00"
         },
         {
             "name": "franzl/whoops-middleware",
