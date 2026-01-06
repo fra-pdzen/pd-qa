@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4f3fb125b07c50905d07f2daae755f16",
+    "content-hash": "4794f23903d6815984c2ab148b129750",
     "packages": [
         {
             "name": "askvortsov/flarum-auto-moderator",
@@ -1891,38 +1891,43 @@
             "time": "2024-09-25T12:00:00+00:00"
         },
         {
-            "name": "flarum-lang/chinese-traditional",
-            "version": "v1.28.0",
+            "name": "flarum-lang/chinese-simplified",
+            "version": "v1.6.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/flarum-lang/chinese-traditional.git",
-                "reference": "f37af2be43badeb8bb1118400c8188107e77f9ee"
+                "url": "https://github.com/flarum-lang/chinese-simplified.git",
+                "reference": "65d42f722355a70b7f5e0eb5f925ee75f4588a82"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum-lang/chinese-traditional/zipball/f37af2be43badeb8bb1118400c8188107e77f9ee",
-                "reference": "f37af2be43badeb8bb1118400c8188107e77f9ee",
+                "url": "https://api.github.com/repos/flarum-lang/chinese-simplified/zipball/65d42f722355a70b7f5e0eb5f925ee75f4588a82",
+                "reference": "65d42f722355a70b7f5e0eb5f925ee75f4588a82",
                 "shasum": ""
             },
             "require": {
-                "flarum/core": "^1.5"
+                "flarum/core": "^1.0.0"
+            },
+            "replace": {
+                "ffans/lang-simplified-chinese": "*",
+                "littlegolden/flarum-lang-simplified-chinese": "*"
             },
             "type": "flarum-extension",
             "extra": {
                 "extiverse": {
-                    "discuss": ""
+                    "discuss": "https://discuss.flarum.org/d/22690"
                 },
                 "flarum-locale": {
-                    "code": "zh-Hant",
-                    "title": "正體中文"
+                    "code": "zh-Hans",
+                    "title": "简体中文"
                 },
                 "flarum-extension": {
                     "icon": {
                         "image": "icon.svg",
                         "backgroundSize": "cover",
+                        "backgroundColor": "#fff",
                         "backgroundPosition": "center"
                     },
-                    "title": "Chinese (Traditional)",
+                    "title": "简体中文",
                     "category": "language"
                 }
             },
@@ -1930,18 +1935,28 @@
             "license": [
                 "MIT"
             ],
-            "description": "Chinese (Traditional) language pack for Flarum.",
-            "homepage": "https://github.com/flarum-lang/chinese-traditional",
+            "authors": [
+                {
+                    "name": "Flarum Fans",
+                    "email": "littlegoldenjin@gmail.com",
+                    "homepage": "https://github.com/FFans"
+                }
+            ],
+            "description": "Chinese language pack for Flarum.",
             "keywords": [
+                "Chinsese",
+                "extension",
                 "flarum",
                 "locale",
-                "zh_Hant-locale"
+                "中文",
+                "简体中文"
             ],
             "support": {
-                "issues": "https://github.com/flarum-lang/chinese-traditional/issues",
-                "source": "https://github.com/flarum-lang/chinese-traditional"
+                "forum": "https://discuss.flarum.org/d/22690",
+                "issues": "https://github.com/flarum-lang/chinese-simplified/issues",
+                "source": "https://github.com/flarum-lang/chinese-simplified"
             },
-            "time": "2025-06-06T15:12:41+00:00"
+            "time": "2024-10-29T11:34:18+00:00"
         },
         {
             "name": "flarum/approval",
