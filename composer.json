@@ -50,6 +50,7 @@
         "fof/nightmode": "^1.6",
         "fof/oauth": "^1.7",
         "fof/user-directory": "*",
+        "ianm/oauth-line": "*",
         "michaelbelgium/flarum-discussion-views": "^7.4",
         "tohsakarat/fancybox-plus": "^1.0",
         "wanecho/showfloor": "*"
